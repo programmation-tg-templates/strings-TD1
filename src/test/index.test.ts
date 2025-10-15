@@ -1,4 +1,4 @@
-import { formaterPrenom } from "./index";
+import { formaterPrenom } from "../index";
 
 describe("Formatage d'un prénom", () => {
   test("Tester 'Bonjour Alice !'", () => {
