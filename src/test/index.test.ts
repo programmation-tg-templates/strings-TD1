@@ -1,9 +1,7 @@
-// Tests unitaires écrits par l'enseignant. Ne modifiez pas ce fichier.
+import { formaterPrenom } from "./index";
 
-import {...} from '../index';
-
-describe('...', () => {
-    test('...', () => {
-        expect(false).toBe(true);
-    });
+describe("Formatage d'un prénom", () => {
+  test("Tester 'Bonjour Alice !'", () => {
+    expect(formaterPrenom("  aLiCe  ")).toEqual("Bonjour Alice !");
+  });
 });
